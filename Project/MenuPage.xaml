@@ -1,0 +1,47 @@
+﻿<!-- 
+PAGE NAME: MenuPage.xaml
+AUTHOR: Greg Choice 
+STUDENT NUMBER: c9311718
+DATE: 19/05/2017
+INFT2050 Assignment
+-->
+<Page
+    x:Class="Project.MenuPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Project"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid x:Name="grdMenuGrid">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <MediaElement x:Name="meBackground" Source="Assets/Sparkling Stars.wmv" IsLooping="True" IsMuted="True" Stretch="UniformToFill" RenderTransformOrigin="0.5,0.5" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.RowSpan="7" Grid.Row="0"/>
+        <Button x:Name="btnHard" Content="Hard" Click="btnHard_Click" Tag="h" HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Foreground="White"/>
+        <Button x:Name="btnMedium" Content="Medium" Click="btnMedium_Click" Tag="m" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Foreground="White"/>
+        <Button x:Name="btnBeginner" Content="Beginner" Click="btnBeginner_Click" Tag="b" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" Foreground="White"/>
+        <HyperlinkButton x:Name="hypCredits" Content="Credits" HorizontalAlignment="Left" Grid.Row="6" VerticalAlignment="Bottom" Click="hypCredits_Click" Width="137" Height="63" FontSize="24" Foreground="White" FontFamily="Segoe WP"/>
+        <Button x:Name="btnToyBox" Content="Toy Box" HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" Click="btnToyBox_Click"/>
+        <HyperlinkButton x:Name="hypScores" Content="High Scores" HorizontalAlignment="Right" Grid.Row="6" VerticalAlignment="Bottom" Click="hypScores_Click" Width="174" Height="63" FontSize="24" Foreground="White" FontFamily="Segoe WP"/>
+        <TextBlock x:Name="tbkTitle" TextWrapping="Wrap" TextAlignment="Center" FontSize="48" VerticalAlignment="Bottom" HorizontalAlignment="Center" Text="Space Ops" Grid.Row="0">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="1"/>
+                    <GradientStop Color="White" Offset="0.203"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <ProgressBar x:Name="pgbLoading" HorizontalAlignment="Center" Grid.Row="4" VerticalAlignment="Center" Width="198" Height="28" IsIndeterminate="True" Visibility="Collapsed"/>
+        <TextBlock x:Name="tbkLoading" HorizontalAlignment="Center" Grid.Row="4" TextWrapping="Wrap" Text="Loading Score Files" VerticalAlignment="Center" FontSize="16" Visibility="Collapsed"/>
+
+    </Grid>
+</Page>

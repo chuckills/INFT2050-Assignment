@@ -1,0 +1,37 @@
+﻿<!-- 
+PAGE NAME: ToyPage.xaml
+AUTHOR: Greg Choice 
+STUDENT NUMBER: c9311718
+DATE: 19/05/2017
+INFT2050 Assignment
+-->
+<Page
+    x:Class="Project.ToyPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Project"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <MediaElement x:Name="meBackground" Source="Assets/Sparkling Stars.wmv" IsLooping="True" IsMuted="True" Stretch="UniformToFill" RenderTransformOrigin="0.5,0.5" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.RowSpan="5"/>
+        <MediaElement x:Name="meBgMenu" HorizontalAlignment="Left" Height="51" VerticalAlignment="Top" Width="51" Source="Assets/Forboding_Resonance.mp3" IsLooping="True" AudioCategory="GameMedia"/>
+        <Button x:Name="btnMrSpaceman" Content="Mr Spaceman" HorizontalAlignment="Center" VerticalAlignment="Center" Click="btnMrSpaceman_Click" IsEnabled="False" Grid.Row="1"/>
+        <MediaElement x:Name="meBlip" HorizontalAlignment="Left" Height="44" Margin="12,6,0,0" VerticalAlignment="Top" Width="38" AutoPlay="False" Source="Assets/Blip.mp3" AudioCategory="GameEffects"/>
+        <Button x:Name="btnStarCatch" Content="Star Catcher" HorizontalAlignment="Center" VerticalAlignment="Center" IsEnabled="False" Grid.Row="2" Click="btnStarCatch_Click"/>
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Center" VerticalAlignment="Center" IsEnabled="False" Grid.Row="3"/>
+        <TextBlock x:Name="lblSpaceman" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Play ten times on Beginner Mode" VerticalAlignment="Bottom" Grid.Row="1"/>
+        <TextBlock x:Name="lblStarCatch" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Play ten times on Medium Mode" VerticalAlignment="Bottom" Grid.Row="2"/>
+        <TextBlock x:Name="lblButton" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Play ten times on Hard Mode" VerticalAlignment="Bottom" Grid.Row="3"/>
+
+    </Grid>
+</Page>

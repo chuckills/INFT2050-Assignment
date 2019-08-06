@@ -1,0 +1,43 @@
+﻿<!-- 
+PAGE NAME: MrSpaceman.xaml
+AUTHOR: Greg Choice 
+STUDENT NUMBER: c9311718
+DATE: 19/05/2017
+INFT2050 Assignment
+-->
+<Page
+    x:Class="Project.MrSpaceman"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Project"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Loaded="Page_Loaded">
+
+    <Grid>
+        <MediaElement x:Name="meBackground" Source="Assets/Sparkling Stars.wmv" IsLooping="True" Stretch="UniformToFill" RenderTransformOrigin="0.5,0.5" VerticalAlignment="Center" HorizontalAlignment="Center" Volume="0"/>
+        <TextBlock x:Name="tbkTimer" TextWrapping="Wrap" Text="Time to Rescue 1:00.0" FontSize="18" VerticalAlignment="Top" TextAlignment="Center" Height="43" HorizontalAlignment="Right" Width="134"/>
+        <ProgressBar x:Name="pgbO2Supply" Height="29" Width="320" VerticalAlignment="Bottom" SmallChange="1" LargeChange="5" Value="1000" Foreground="Indigo" Maximum="1000" HorizontalAlignment="Center">
+            <ProgressBar.Background>
+                <SolidColorBrush Color="#FF6C0BF8" Opacity="0.15999999642372131"/>
+            </ProgressBar.Background>
+        </ProgressBar>
+        <TextBlock x:Name="tbkO2Label" TextWrapping="Wrap" Text="Remaining Oxygen" VerticalAlignment="Bottom" HorizontalAlignment="Center" FontSize="18" Height="25" Margin="125,0"/>
+        <TextBlock x:Name="tbkEndMessage" TextWrapping="Wrap" Text="Oxygen Depleted Tap the Screen" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="18" Margin="70,220,71,398" Visibility="Collapsed"/>
+        <Canvas x:Name="cnvHappyCanvas">
+            <Image x:Name="imgSpaceship" HorizontalAlignment="Center" VerticalAlignment="Top" Source="Assets/spaceship.png" Width="2" Height="2" RenderTransformOrigin="0.5,0.5"/>
+            <Image x:Name="imgMrSpaceman" Height="80" Width="80" Source="Assets/spaceman.png" RenderTransformOrigin="0.5,0.5"/>
+            <MediaElement x:Name="meBlip" HorizontalAlignment="Left" Height="44" VerticalAlignment="Top" Width="38" AutoPlay="False" Source="Assets/Blip.mp3" AudioCategory="GameEffects" Canvas.Left="12" Canvas.Top="6"/>
+            <MediaElement x:Name="meOxygen" Height="100" Canvas.Left="289" Canvas.Top="12" Width="100" AudioCategory="GameEffects" Source="Assets/Astronaut Breathing-SoundBible.com.mp3"/>
+            <Ellipse x:Name="elpO2Helper" Height="35" Canvas.Left="85" Stroke="#FF6C0BF8" Canvas.Top="70" Width="35" StrokeThickness="2" RenderTransformOrigin="0.5,0.5" Visibility="Collapsed">
+                <Ellipse.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Black" Offset="1"/>
+                        <GradientStop Color="Indigo" Offset="0.203"/>
+                    </LinearGradientBrush>
+                </Ellipse.Fill>
+            </Ellipse>
+        </Canvas>
+    </Grid>
+</Page>

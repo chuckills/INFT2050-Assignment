@@ -1,0 +1,40 @@
+﻿<!-- 
+PAGE NAME: ScorePage.xaml
+AUTHOR: Greg Choice 
+STUDENT NUMBER: c9311718
+DATE: 19/05/2017
+INFT2050 Assignment
+-->
+<Page
+    x:Class="Project.ScorePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Project"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid x:Name="grdScoreGrid">
+        <MediaElement x:Name="meBackground" Source="Assets/Sparkling Stars.wmv" IsLooping="True" IsMuted="True" Stretch="UniformToFill" RenderTransformOrigin="0.5,0.5" VerticalAlignment="Center" HorizontalAlignment="Center" AudioCategory="GameMedia"/>
+        
+        <Pivot x:Name="pivHighScores" Title="Top 10 High Scores">
+            <PivotItem x:Name="pivBeginner" Header="Beginner">
+                <Viewbox VerticalAlignment="Top">
+                    <TextBlock x:Name="bList" HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="consola.ttf#Consolas"/>
+                </Viewbox>
+            </PivotItem>
+            <PivotItem x:Name="pivMedium" Header="Medium">
+                <Viewbox VerticalAlignment="Top">
+                    <TextBlock x:Name="mList" HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="consola.ttf#Consolas"/>
+                </Viewbox>
+            </PivotItem>
+            <PivotItem x:Name="pivHard" Header="Hard">
+                <Viewbox VerticalAlignment="Top">
+                    <TextBlock x:Name="hList" HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="consola.ttf#Consolas"/>
+                </Viewbox>
+            </PivotItem>
+        </Pivot>
+        <Button x:Name="btnReset" Content="Reset Scores" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,10,0" Tapped="btnReset_Tapped"/>
+    </Grid>
+</Page>
