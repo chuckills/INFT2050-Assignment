@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SAMSUNG</Machine>
+    <WindowsUser>chuck</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows Phone 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>224aab11-38b4-4d5e-b19f-9e094944f416</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Admin</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\chuck\OneDrive - The University Of Newcastle\UNI\Year 02\Semester 01\INFT2050\Assignments\myProject\Project8.1\Project\obj\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\chuck\OneDrive - The University Of Newcastle\UNI\Year 02\Semester 01\INFT2050\Assignments\myProject\Project8.1\Project\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\chuck\OneDrive - The University Of Newcastle\UNI\Year 02\Semester 01\INFT2050\Assignments\myProject\Project8.1\Project\bin\Debug\Project.exe">
+      <PackagePath>Project.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chuck\OneDrive - The University Of Newcastle\UNI\Year 02\Semester 01\INFT2050\Assignments\myProject\Project8.1\Project\Assets\ALARMCLK.mp3">
+      <PackagePath>Assets\ALARMCLK.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chuck\OneDrive - The University Of Newcastle\UNI\Year 02\Semester 01\INFT2050\Assignments\myProject\Project8.1\Project\Assets\Astronaut Breathing-SoundBible.com.mp3">
+      <PackagePath>Assets\Astronaut Breathing-SoundBible.com.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chuck\OneDrive - The University Of Newcastle\UNI\Year 02\Semester 01\INFT2050\Assignments\myProject\Project8.1\Project\Assets\Blip.mp3">
+      <PackagePath>Assets\Blip.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chuck\OneDrive - The University Of Newcastle\UNI\Year 02\Semester 01\INFT2050\Assignments\myProject\Project8.1\Project\Assets\Explosion_Hiss_Bop_Bang.mp3">
+      <PackagePath>Assets\Explosion_Hiss_Bop_Bang.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chuck\OneDrive - The University Of Newcastle\UNI\Year 02\Semester 01\INFT2050\Assignments\myProject\Project8.1\Project\Assets\Forboding_Resonance.mp3">
+      <PackagePath>Assets\Forboding_Resonance.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chuck\OneDrive - The University Of Newcastle\UNI\Year 02\Semester 01\INFT2050\Assignments\myProject\Project8.1\Project\Assets\Laser_Gun.mp3">
+      <PackagePath>Assets\Laser_Gun.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chuck\OneDrive - The University Of Newcastle\UNI\Year 02\Semester 01\INFT2050\Assignments\myProject\Project8.1\Project\Assets\PHAZER.mp3">
+      <PackagePath>Assets\PHAZER.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chuck\OneDrive - The University Of Newcastle\UNI\Year 02\Semester 01\INFT2050\Assignments\myProject\Project8.1\Project\Assets\Catcher.png">
+      <PackagePath>Assets\Catcher.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chuck\OneDrive - The University Of Newcastle\UNI\Year 02\Semester 01\INFT2050\Assignments\myProject\Project8.1\Project\Assets\cross_small.png">
+      <PackagePath>Assets\cross_small.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chuck\OneDrive - The University Of Newcastle\UNI\Year 02\Semester 01\INFT2050\Assignments\myProject\Project8.1\Project\Assets\O2tank.png">
+      <PackagePath>Assets\O2tank.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chuck\OneDrive - The University Of Newcastle\UNI\Year 02\Semester 01\INFT2050\Assignments\myProject\Project8.1\Project\Assets\spaceman.png">
+      <PackagePath>Assets\spaceman.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chuck\OneDrive - The University Of Newcastle\UNI\Year 02\Semester 01\INFT2050\Assignments\myProject\Project8.1\Project\Assets\spaceship.png">
+      <PackagePath>Assets\spaceship.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chuck\OneDrive - The University Of Newcastle\UNI\Year 02\Semester 01\INFT2050\Assignments\myProject\Project8.1\Project\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chuck\OneDrive - The University Of Newcastle\UNI\Year 02\Semester 01\INFT2050\Assignments\myProject\Project8.1\Project\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chuck\OneDrive - The University Of Newcastle\UNI\Year 02\Semester 01\INFT2050\Assignments\myProject\Project8.1\Project\Assets\Square71x71Logo.scale-100.png">
+      <PackagePath>Assets\Square71x71Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chuck\OneDrive - The University Of Newcastle\UNI\Year 02\Semester 01\INFT2050\Assignments\myProject\Project8.1\Project\Assets\Star.png">
+      <PackagePath>Assets\Star.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chuck\OneDrive - The University Of Newcastle\UNI\Year 02\Semester 01\INFT2050\Assignments\myProject\Project8.1\Project\Assets\Star2.png">
+      <PackagePath>Assets\Star2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chuck\OneDrive - The University Of Newcastle\UNI\Year 02\Semester 01\INFT2050\Assignments\myProject\Project8.1\Project\Assets\StoreLogo.scale-140.png">
+      <PackagePath>Assets\StoreLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chuck\OneDrive - The University Of Newcastle\UNI\Year 02\Semester 01\INFT2050\Assignments\myProject\Project8.1\Project\Assets\tick_small.png">
+      <PackagePath>Assets\tick_small.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chuck\OneDrive - The University Of Newcastle\UNI\Year 02\Semester 01\INFT2050\Assignments\myProject\Project8.1\Project\Assets\gameOver.wav">
+      <PackagePath>Assets\gameOver.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chuck\OneDrive - The University Of Newcastle\UNI\Year 02\Semester 01\INFT2050\Assignments\myProject\Project8.1\Project\Assets\shootingStarMini.wav">
+      <PackagePath>Assets\shootingStarMini.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chuck\OneDrive - The University Of Newcastle\UNI\Year 02\Semester 01\INFT2050\Assignments\myProject\Project8.1\Project\Assets\Sparkling Stars.wmv">
+      <PackagePath>Assets\Sparkling Stars.wmv</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chuck\OneDrive - The University Of Newcastle\UNI\Year 02\Semester 01\INFT2050\Assignments\myProject\Project8.1\Project\consola.ttf">
+      <PackagePath>consola.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chuck\OneDrive - The University Of Newcastle\UNI\Year 02\Semester 01\INFT2050\Assignments\myProject\Project8.1\Project\StoreManifest.xml">
+      <PackagePath>StoreManifest.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chuck\OneDrive - The University Of Newcastle\UNI\Year 02\Semester 01\INFT2050\Assignments\myProject\Project8.1\Project\bin\Debug\Project.xr.xml">
+      <PackagePath>Project.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chuck\OneDrive - The University Of Newcastle\UNI\Year 02\Semester 01\INFT2050\Assignments\myProject\Project8.1\Project\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chuck\OneDrive - The University Of Newcastle\UNI\Year 02\Semester 01\INFT2050\Assignments\myProject\Project8.1\Project\bin\Debug\MrSpaceman.xbf">
+      <PackagePath>MrSpaceman.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chuck\OneDrive - The University Of Newcastle\UNI\Year 02\Semester 01\INFT2050\Assignments\myProject\Project8.1\Project\bin\Debug\StarCatcher.xbf">
+      <PackagePath>StarCatcher.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chuck\OneDrive - The University Of Newcastle\UNI\Year 02\Semester 01\INFT2050\Assignments\myProject\Project8.1\Project\bin\Debug\ToyPage.xbf">
+      <PackagePath>ToyPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chuck\OneDrive - The University Of Newcastle\UNI\Year 02\Semester 01\INFT2050\Assignments\myProject\Project8.1\Project\bin\Debug\ScorePage.xbf">
+      <PackagePath>ScorePage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chuck\OneDrive - The University Of Newcastle\UNI\Year 02\Semester 01\INFT2050\Assignments\myProject\Project8.1\Project\bin\Debug\GamePage.xbf">
+      <PackagePath>GamePage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chuck\OneDrive - The University Of Newcastle\UNI\Year 02\Semester 01\INFT2050\Assignments\myProject\Project8.1\Project\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chuck\OneDrive - The University Of Newcastle\UNI\Year 02\Semester 01\INFT2050\Assignments\myProject\Project8.1\Project\bin\Debug\MenuPage.xbf">
+      <PackagePath>MenuPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chuck\OneDrive - The University Of Newcastle\UNI\Year 02\Semester 01\INFT2050\Assignments\myProject\Project8.1\Project\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
